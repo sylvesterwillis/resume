@@ -11,7 +11,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar">
+        <img src="images/avatar.png" alt="my photo" class="avatar">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -27,7 +27,9 @@
         </div>
 
         <div class="executive-summary">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          <p>
+            I am a front-end developer who has experience with a wide variety of Javascript frameworks and have used said frameworks to create sites using backend REST APIS. I also have experience with creating said APIS using languages such as Python. In addition, I have used CSS pre-processors such as LESS and SCSS. The position that I am seeking would allow me to use these technologies in order to create stunning websites.
+          </p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -48,31 +50,53 @@
 
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
+          <h3 class="resume-item-title">Georgia Tech Research Institute</h3>
+          <h4 class="resume-item-details">Research Scientist I &bull; 2014 &mdash; Present</h4>
+          <p class="resume-item-copy">Participated in various projects as a front-end developer:</p>
           <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
+            <li>Worked alongside a team of developers to implement features and resolve issues for a network monitoring platform using Scala and AngularJS.</li>
+            <li>Worked with designer and architect to implement features in security test reporting software using Python/Flask, MongoDB, and jQuery.</li>
+            <li>Created prototype task handling application using Python/Flask/AngularJS.</li>
+            <li>Created informational site using HTML5/SCSS.</li>
           </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
+
 
         </div><!-- end of resume-item -->
 
         <!-- another resume item -->
         <div class="resume-item">
-          <h3 class="resume-item-title">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
+          <h3 class="resume-item-title">Aptean</h3>
+          <h4 class="resume-item-details">Associate Software Developer &bull; 2013 &mdash; 2014</h4>
+          <p class="resume-item-copy">Worked with team of developers to help develop software for various applications to increase customer retention.</p>
+          <ul class="resume-item-list">
+            <li>Provided 3rd level support to help resolve customer issues related to software written in C#/C++, decreasing number of support tickets and software defects by 50%.</li>
+            <li>Implemented features and bug-fixes for Customer Relationship Management software written in C#/C++</li>
+            <li>Created prototype task handling application using Python/Flask/AngularJS.</li>
+            <li>Created informational site using HTML5/SCSS.</li>
+          </ul>
 
         </div><!-- end of resume-item -->
 
         <!-- by now you're getting the picture... -->
         <div class="resume-item">
-          <h3 class="resume-item-title">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
+          <h3 class="resume-item-title">GSU Dept of Computer Science</h3>
+          <h4 class="resume-item-details">Student Assistant &bull; 2013 &mdash; 2013</h4>
+          <p class="resume-item-copy">Added features to Technical Committee on Parallel Processing curriculum website using PHP/MySQL to provide a source of curriculum information for those interested in Computer Science academia.</p>
+          <ul class="resume-item-list">
+            <li>Created a search feature to facilitate researching of various courses.</li>
+            <li>Developed script to generate lists for the administrators to use when creating forms for the site.</li>
+          </ul>
+
+        </div><!-- end of resume-item -->
+
+        <!-- another resume item -->
+        <div class="resume-item">
+          <h3 class="resume-item-title">Echostar</h3>
+          <h4 class="resume-item-details">Engineering Intern &bull; 2012 &mdash; 2012</h4>
+          <p class="resume-item-copy">Added features to webERP open source application using PHP, MySQL, and Javascript to fit company needs and increase accuracy of reports generated.</p>
+          <ul class="resume-item-list">
+            <li>Refactored and added generation of Excel spreadsheets and PDF documents through website.</li>
+          </ul>
 
         </div><!-- end of resume-item -->
 
@@ -88,9 +112,8 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title">Springfield College</h3>
-          <h4 class="resume-item-details">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
+          <h3 class="resume-item-title">Georgia State University</h3>
+          <h4 class="resume-item-details">Bachelor Degree, Computer Science &bull; 2008 &mdash; 2013</h4>
         </div>
 
       </section>
@@ -99,7 +122,7 @@
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Projects</h2>
@@ -117,7 +140,7 @@
           <p class="resume-item-copy">DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.</p>
         </div>
 
-      </section>
+      </section> -->
       <!-- end Projects -->
       {% endif %}
 
@@ -130,18 +153,13 @@
         </header>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Donut design</h4>
-          <p class="resume-item-copy">Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research</p>
+          <h4 class="resume-item-details">Proficient:</h4>
+          <p class="resume-item-copy">Javascript, MySQL, PostgreSQL, MongoDB, AngularJS, AJAX, jQuery, Git, CSS</p>
         </div>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Craft beer brewing</h4>
-          <p class="resume-item-copy">Hops inspection, brew testing, distribution management, bottle label design, festival and event management</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Family leadership</h4>
-          <p class="resume-item-copy">Bread winning, conflict resolution, couch inspection, TV longevity testing</p>
+          <h4 class="resume-item-details">Familiar:</h4>
+          <p class="resume-item-copy">Python, Scala, C#, Ruby, Java, NodeJS, React</p>
         </div>
 
       </section>
@@ -150,7 +168,7 @@
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Recognition</h2>
@@ -174,13 +192,13 @@
           <p class="resume-item-copy">Specifically this prestigious awarded twice for stopping a robber with my belly.</p>
         </div>
 
-      </section>
+      </section> -->
       <!-- end Recognition -->
       {% endif %}
 
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Associations</h2>
@@ -198,7 +216,7 @@
           <p class="resume-item-copy">Founding member of the local nuclear workers labor union.</p>
         </div>
 
-      </section>
+      </section> -->
       <!-- end Recognition -->
       {% endif %}
 
@@ -212,8 +230,7 @@
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            <li><a href="#">Springfield Poker Club</a></li>
-            <li><a href="#">Springfield Donut Eater's User Group</a></li>
+            <li><a href="#">Atlanta JavaScript Meetup Group</a></li>
           </ul>
         </div>
 
@@ -222,7 +239,6 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
         <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
       </footer>
 
