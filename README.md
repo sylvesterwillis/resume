@@ -1,6 +1,7 @@
 # resume-template
 
 *A simple Jekyll + GitHub Pages powered resume template.*
+Check it out on [GitHub Pages](https://sylvesterwillis.github.io/resume/)
 
 ## Docs
 
