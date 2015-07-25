@@ -2,7 +2,7 @@
 
 *A simple Jekyll + GitHub Pages powered resume template.*
 
-![img](images/screenshot.png)
+![img](images/avatar.png)
 
 ## Docs
 
